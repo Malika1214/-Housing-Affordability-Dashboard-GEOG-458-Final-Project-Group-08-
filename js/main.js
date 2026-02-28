@@ -14,7 +14,7 @@ map.on('load', () => {
 
   map.addSource('housing-data', {
     type: 'geojson',
-    data: 'data/rent_burden.geojson'
+    data: 'assets/rent_burden.geojson'
   });
 
   map.addLayer({
